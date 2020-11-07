@@ -16,6 +16,10 @@ public class Vigenere5IV6 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        //no ponemos nada nadita nada wiiii
+        
+        //ahora si aqui mandar a llamar a la interfaz linda y kawaii
     }
     
 }
+
