@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AES con Jquery</title>
+</head>
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js" ></script>
+    <p>Jquery es una libreria de js, que ayuda "realizar operaciones en tiempo real" </p>
+    <br>
+    <textarea id="elhtml" placeholder="Escribe tu mensaje a cifrar"
+    rows="5" cols="32" > </textarea>
+    <br>
+    <input type="password" id="clave" name="clave" 
+    placeholder="Ingresa la llave secreta" value="" >
+    <br>
+    <button id="cifrar"  >Enviar</button>
+    <br>
+    <textarea id="cifrado" rows="5" cols="32" ></textarea>
+    <script src="js/cifradoaes.js" ></script>
+    
+</body>
+</html>
